@@ -6,7 +6,7 @@ var morgan = require('morgan');
 app.use(morgan('short'));
 
 app.get('/', (req, res) => {
-    res.send('Hello World!');
+    res.send('Hello World! test');
 }
 );
 
